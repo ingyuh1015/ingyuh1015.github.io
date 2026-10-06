@@ -1,9 +1,6 @@
 body { color: #243047; }
 .hero-body { padding: 6rem 1.5rem 4.5rem; }
 .publication-title { max-width: 970px; margin: 0 auto 2.5rem !important; font-size: clamp(2rem, 4.5vw, 3.35rem) !important; line-height: 1.18 !important; letter-spacing: -0.035em; font-weight: 750; text-wrap: balance; }
-.thesis-details { display: flex; justify-content: center; flex-wrap: wrap; gap: 1.5rem 3.5rem; margin: 0 0 2.25rem; }
-.thesis-details dt { font-size: .8rem; color: #64748b; margin-bottom: .3rem; }
-.thesis-details dd { font-size: 1.1rem; color: #334155; }
 .resources { display: flex; flex-wrap: wrap; justify-content: center; gap: .7rem; }
 .resources button { border: 1px solid #d6dce5; border-radius: 999px; padding: .7rem 1.3rem; background: #f1f5f9; color: #64748b; font: inherit; font-size: .9rem; cursor: default; opacity: 1; }
 .placeholder-section { padding: 3.25rem 1.5rem; border-top: 1px solid #e8edf3; }
@@ -13,7 +10,8 @@ body { color: #243047; }
 .placeholder { color: #64748b; font-size: 1.05rem; margin: 1.25rem 0 .25rem; }
 .footer { background: white; border-top: 1px solid #e8edf3; padding: 2rem 1.5rem; }
 .credit { font-size: .75rem; color: #64748b; line-height: 1.8; }
-@media (max-width: 600px) { .hero-body { padding: 3.5rem 1.2rem 3rem; } .thesis-details { gap: 1.25rem 1.75rem; } .placeholder-section { padding: 2.5rem 1.2rem; } }
+@media (max-width: 600px) { .hero-body { padding: 3.5rem 1.2rem 3rem; } .placeholder-section { padding: 2.5rem 1.2rem; } }
 
-.thesis-details dd:empty { min-height: 1.76rem; }
 .placeholder:empty { min-height: 2rem; }
+
+.publication-authors .author-block { margin-right: 0; }
