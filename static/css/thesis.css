@@ -14,3 +14,6 @@ body { color: #243047; }
 .footer { background: white; border-top: 1px solid #e8edf3; padding: 2rem 1.5rem; }
 .credit { font-size: .75rem; color: #64748b; line-height: 1.8; }
 @media (max-width: 600px) { .hero-body { padding: 3.5rem 1.2rem 3rem; } .thesis-details { gap: 1.25rem 1.75rem; } .placeholder-section { padding: 2.5rem 1.2rem; } }
+
+.thesis-details dd:empty { min-height: 1.76rem; }
+.placeholder:empty { min-height: 2rem; }

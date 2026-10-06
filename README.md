@@ -1,10 +1,12 @@
 # A Scalable Policy Optimization Framework for Multi-Constraint Safe Reinforcement Learning
 
-Placeholder thesis website: https://ingyuh1015.github.io/
+Home: https://ingyuh1015.github.io/
+
+Thesis website: https://ingyuh1015.github.io/thesis/
 
 ## Editing
 
-Edit `index.html` to replace TBA content. Update `static/css/thesis.css` for thesis-specific styling. Resource buttons are disabled until their URLs are available; replace them with links when ready.
+Edit `thesis/index.html` to fill the empty thesis sections. Edit `index.html` for the home page. Update `static/css/thesis.css` for thesis-specific styling. Resource buttons are disabled until their URLs are available; replace them with links when ready.
 
 ## Preview and deploy
 
