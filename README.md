@@ -15,3 +15,9 @@ Run `python3 -m http.server 8000` in this directory and open http://localhost:80
 ## Template attribution
 
 Adapted from [Academic Project Page Template](https://github.com/eliahuhorwitz/Academic-project-page-template), based on [Nerfies](https://nerfies.github.io/). Original CSS and the adapted website template are distributed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+## Resume
+
+https://ingyuh1015.github.io/resume/
+
+Edit `resume/index.html` to fill the empty sections. Each entry includes an HTML comment describing its intended content. Style the resume in `static/css/resume.css`; browser printing uses an A4 layout.
