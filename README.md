@@ -21,3 +21,7 @@ Adapted from [Academic Project Page Template](https://github.com/eliahuhorwitz/A
 https://ingyuh1015.github.io/resume/
 
 Edit `resume/index.html` to fill the empty sections. Each entry includes an HTML comment describing its intended content. Style the resume in `static/css/resume.css`; browser printing uses an A4 layout.
+
+Resume now uses Modern Resume Theme: https://github.com/sproogen/modern-resume-theme
+Sections follow https://heejojeong.github.io/: About Me, Education, Publication, Experience, Projects.
+Original compiled CSS, provenance and MIT license are in `static/vendor/modern-resume-theme/`. Local overrides are in `static/css/resume.css`.
