@@ -15,3 +15,5 @@ body { color: #243047; }
 .placeholder:empty { min-height: 2rem; }
 
 .publication-authors .author-block { margin-right: 0; }
+
+.publication-authors.is-size-5 { font-size: 1.75rem !important; }
