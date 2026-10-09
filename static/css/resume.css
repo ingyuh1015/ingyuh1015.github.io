@@ -23,3 +23,8 @@ section[aria-labelledby="education"] .details h4 { margin-bottom: 8px; }
 
 .publication-date-links { display: inline-block; white-space: nowrap; }
 .publication-inline-links { font-size: 16px; }
+
+/* Use desktop space instead of Bootstrap's fixed 1170px container. */
+@media screen and (min-width: 768px) {
+  .container { width: 94%; max-width: 1600px; }
+}
