@@ -62,3 +62,9 @@ section[aria-labelledby="education"] .details h4 { margin-bottom: 8px; }
 .publication-toggle[aria-expanded="true"]::after { transform: translateY(2px) rotate(225deg); }
 .publication-toggle:hover { color: #222; text-decoration: underline; background: transparent; }
 .publication-toggle:focus-visible { outline: 2px solid #666; outline-offset: 4px; }
+
+.venue-international-conference { background: #f0eaff; color: #5b3cc4; }
+.venue-international-journal { background: #e8f0ff; color: #2458a6; }
+.venue-domestic-journal { background: #e1f3ef; color: #176b58; }
+.venue-domestic-conference { background: #fff0e5; color: #a34b16; }
+.venue-under-review { background: #edf0f3; color: #58616c; }
