@@ -2,9 +2,3 @@
 .resume-empty { min-height: 36px; }
 a:focus-visible { outline: 2px solid #477dca; outline-offset: 4px; }
 @media print { @page { size: A4; margin: 16mm; } section { break-inside: avoid; } }
-
-/* Readable education typography, including dates on smaller screens. */
-section[aria-labelledby="education"] .details h4 { font-size: 26px; line-height: 1.4; }
-section[aria-labelledby="education"] .details h4 small { font-size: 18px; }
-section[aria-labelledby="education"] .details p { font-size: 20px; line-height: 1.65; }
-section[aria-labelledby="education"] .details p small { font-size: 18px; font-weight: 400; }
