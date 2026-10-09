@@ -2,3 +2,9 @@
 .resume-empty { min-height: 36px; }
 a:focus-visible { outline: 2px solid #477dca; outline-offset: 4px; }
 @media print { @page { size: A4; margin: 16mm; } section { break-inside: avoid; } }
+
+.intro-container p,
+section[aria-labelledby="education"] .details p { font-size: 20px; line-height: 1.6; }
+section[aria-labelledby="education"] .details { text-align: left !important; }
+section[aria-labelledby="education"] .details p { text-align: left !important; }
+section[aria-labelledby="education"] .details h4 { margin-bottom: 8px; }
