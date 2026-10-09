@@ -18,7 +18,13 @@
 <div class="education-program"><p><b>Bachelor’s Degree in Computer Science and Engineering</b></p><p>Mar 2015 – Feb 2020</p></div>
 </div></div></section>
 <section class="container list-container" aria-labelledby="publication"><h3 id="publication">Publication</h3>
-<section class="publication-group" aria-labelledby="international-publications"><div class="publication-group-heading"><h4 id="international-publications" class="publication-group-title">International</h4><button type="button" class="publication-toggle" aria-expanded="false" aria-controls="international-extra">Show more</button></div>
+<div class="publication-tabs" role="tablist" aria-label="Publication categories">
+<button type="button" role="tab" id="tab-international-papers" aria-controls="international-papers" aria-selected="true" tabindex="0">국제논문</button>
+<button type="button" role="tab" id="tab-domestic-papers" aria-controls="domestic-papers" aria-selected="false" tabindex="-1">국내논문</button>
+<button type="button" role="tab" id="tab-international-patents" aria-controls="international-patents" aria-selected="false" tabindex="-1">국제특허</button>
+<button type="button" role="tab" id="tab-domestic-patents" aria-controls="domestic-patents" aria-selected="false" tabindex="-1">국내특허</button>
+</div>
+<section id="international-papers" class="publication-group publication-panel" role="tabpanel" aria-labelledby="tab-international-papers"><div class="publication-group-heading"><h4 id="international-publications" class="publication-group-title">International</h4><button type="button" class="publication-toggle" aria-expanded="false" aria-controls="international-extra">Show more</button></div>
 <article class="publication-entry"><div class="publication-badges"><span class="venue-badge venue-international-conference">NeurIPS 2026 <span class="venue-badge-track">Main Track</span></span></div><div class="publication-body"><h5>LOCU: Löwdin-Orthogonalized Constraint Updates for Multi-Constraint Policy Optimization</h5><p class="publication-authors"><strong>Joonyoung Lim</strong>, Younghwan Yoo<sup>*</sup></p></div></article>
 <article class="publication-entry"><div class="publication-badges"><span class="venue-badge venue-international-conference">NeurIPS 2026 <span class="venue-badge-track">Main Track</span></span></div><div class="publication-body"><h5>Accelerating Safe Reinforcement Learning with Massive Parallelism</h5><p class="publication-authors"><strong>Joonyoung Lim</strong>, Younghwan Yoo<sup>*</sup></p></div></article>
 
@@ -26,21 +32,21 @@
 <article class="publication-entry"><div class="publication-badges"><span class="venue-badge venue-international-journal">IEEE Access 2024</span></div><div class="publication-body"><h5><a href="https://doi.org/10.1109/ACCESS.2024.3390429">Joint Cache Allocation and Replacement for Content-Centric Network-Based Private 5G Networks: Deep Reinforcement Learning Approach</a></h5><p class="publication-authors"><strong>Joonyoung Lim</strong>, Dongju Kim, Younghwan Yoo<sup>*</sup></p></div></article>
 <article id="international-extra" class="publication-entry" hidden><div class="publication-badges"><span class="venue-badge venue-international-conference">ICUFN 2023</span></div><div class="publication-body"><h5><a href="https://doi.org/10.1109/ICUFN57995.2023.10200595">5G Network Simulator for Network Caching</a></h5><p class="publication-authors">Dongju Kim, <strong>Joonyoung Lim</strong>, Younghwan Yoo<sup>*</sup></p></div></article>
 </section>
-<section class="publication-group" aria-labelledby="domestic-publications"><div class="publication-group-heading"><h4 id="domestic-publications" class="publication-group-title">Domestic</h4><button type="button" class="publication-toggle" aria-expanded="false" aria-controls="domestic-extra">Show more</button></div>
+<section id="domestic-papers" class="publication-group publication-panel" role="tabpanel" aria-labelledby="tab-domestic-papers" hidden><div class="publication-group-heading"><h4 id="domestic-publications" class="publication-group-title">Domestic</h4><button type="button" class="publication-toggle" aria-expanded="false" aria-controls="domestic-extra">Show more</button></div>
 <article class="publication-entry"><div class="publication-badges"><span class="venue-badge venue-domestic-journal">JKICS 2026</span></div><div class="publication-body"><h5><a href="https://doi.org/10.7840/kics.2026.51.2.262">A Lyapunov-Based Approach to Balancing AoI and Management Costs in Cooperative Perception for V2I Networks</a></h5><p class="publication-authors"><strong>Joonyoung Lim</strong>, Younghwan Yoo<sup>*</sup></p></div></article>
 <article class="publication-entry"><div class="publication-badges"><span class="venue-badge venue-domestic-conference">UCWIT 2025</span>  </div><div class="publication-body"><h5>Towards Safer Learning in Constrained Reinforcement Learning through Kronecker-Factored and Margin-Aware Optimization <span class="award-badge">최우수논문상</span></h5><p class="publication-authors"><strong>임준영</strong>, 장진호, 유영환<sup>*</sup></p></div></article>
 <article class="publication-entry"><div class="publication-badges"><span class="venue-badge venue-domestic-journal">JKICS 2023</span>  </div><div class="publication-body"><h5><a href="https://doi.org/10.7840/kics.2023.48.3.327">5G 특화망내 심층강화학습 기반 네트워크 캐싱</a> <span class="award-badge">우수논문</span></h5><p class="publication-authors"><strong>임준영</strong>, 김동주, 유영환<sup>*</sup></p></div></article>
 <article id="domestic-extra" class="publication-entry" hidden><div class="publication-badges"><span class="venue-badge venue-domestic-conference">KCC 2021</span></div><div class="publication-body"><h5>스마트공장 내 충돌 위험 실시간 탐지 시스템</h5><p class="publication-authors">신영진, <strong>임준영</strong>, 장진호, 박은영, 유영환<sup>*</sup></p></div></article>
-</section><section class="publication-group" aria-labelledby="patents"><h4 id="patents" class="publication-group-title">Patents</h4><section class="patent-group"><h4 class="publication-group-title">International (US)</h4>
+</section><section id="international-patents" class="patent-group publication-panel" role="tabpanel" aria-labelledby="tab-international-patents" hidden><h4 id="patents" class="publication-group-title">International Patents (US)</h4>
 <article class="publication-entry patent-entry"><div class="publication-badges"><span class="venue-badge venue-international-journal">US 11,062,526 B1<span class="venue-badge-track">Granted</span></span></div><div class="publication-body"><h5><a href="https://patents.google.com/patent/US11062526B1/en">System and Method for Detecting and Notifying Access to Dangerous Areas in Workplace Using Image Processing and Location Tracking Technology</a></h5><p class="publication-authors">Inventors: Young-Hwan Yoo, <strong>Joonyoung Lim</strong>, YoungJin Shin</p><p class="patent-number">Granted Jul 13, 2021</p></div></article>
 </section>
-<section class="patent-group"><h4 class="publication-group-title">Domestic (KR)</h4>
+<section id="domestic-patents" class="patent-group publication-panel" role="tabpanel" aria-labelledby="tab-domestic-patents" hidden><h4 class="publication-group-title">Domestic Patents (KR)</h4>
 <article class="publication-entry patent-entry"><div class="publication-badges"><span class="venue-badge venue-domestic-journal">KR 10-2965118<span class="venue-badge-track">Granted</span></span></div><div class="publication-body"><h5><a href="https://www.kipris.or.kr/khome/detail/newWindow.do?applno=1020230179895&amp;right=kpat">영상인식 기반 TNR 포획 방법 및 장치</a></h5><p class="patent-english-title">Image Recognition-Based TNR Trap Method and Device</p><p class="publication-authors">Inventors: 유영환, <strong>임준영</strong>, 김동주, 박은영, 장진호</p><p class="patent-number">Granted May 11, 2026</p></div></article>
 <article class="publication-entry patent-entry"><div class="publication-badges"><span class="venue-badge venue-domestic-journal">KR 10-2489290<span class="venue-badge-track">Granted</span></span></div><div class="publication-body"><h5><a href="https://www.kipris.or.kr/khome/detail/newWindow.do?applno=1020200157025&amp;right=kpat">영상처리와 위치추적 기술을 활용한 작업장 내 위험지역 접근 감지 및 알림 시스템 및 방법</a></h5><p class="patent-english-title">System and Method for Detecting and Notifying Access to Dangerous Areas in Workplace Using Image Processing and Location Tracking Technology</p><p class="publication-authors">Inventors: 유영환, <strong>임준영</strong>, 신영진</p><p class="patent-number">Granted Jan 12, 2023</p></div></article>
 <article class="publication-entry patent-entry"><div class="publication-badges"><span class="venue-badge venue-domestic-journal">KR 10-2855369<span class="venue-badge-track">Granted</span></span></div><div class="publication-body"><h5><a href="https://www.kipris.or.kr/khome/detail/newWindow.do?applno=1020240164187&amp;right=kpat">스마트 벌목 현장 안전관리 방법 및 시스템</a></h5><p class="patent-english-title">Smart Logging Site Safety Management Method and System</p><p class="publication-authors">Inventors: 유영환, 장진호, <strong>임준영</strong></p><p class="patent-number">Granted Sep 1, 2025</p></div></article>
 <article class="publication-entry patent-entry"><div class="publication-badges"><span class="venue-badge venue-domestic-journal">KR 10-2602371<span class="venue-badge-track">Granted</span></span></div><div class="publication-body"><h5><a href="https://www.kipris.or.kr/khome/detail/newWindow.do?applno=1020210175964&amp;right=kpat">콘텐츠 중심 네트워크에서 강화학습을 기반으로 캐싱하는 장치 및 방법</a></h5><p class="patent-english-title">Apparatus and Method for Caching Based on Reinforcement Learning in Content-Centric Network</p><p class="publication-authors">Inventors: 유영환, <strong>임준영</strong></p><p class="patent-number">Granted Nov 10, 2023</p></div></article>
 <article class="publication-entry patent-entry"><div class="publication-badges"><span class="venue-badge venue-domestic-journal">KR 10-2850544<span class="venue-badge-track">Granted</span></span></div><div class="publication-body"><h5><a href="https://www.kipris.or.kr/khome/detail/newWindow.do?applno=1020230179915&amp;right=kpat">영상인식 기반 의류 보관 방법 및 시스템</a></h5><p class="patent-english-title">Image Recognition-Based Clothing Storage Method and System</p><p class="publication-authors">Inventors: 유영환, 김동주, 장진호, <strong>임준영</strong>, 박은영</p><p class="patent-number">Granted Aug 21, 2025</p></div></article>
-</section></section>
+</section>
 </section>
 <section class="container list-container" aria-labelledby="experience"><h3 id="experience">Experience</h3><div class="row clearfix"><div class="col-xs-12 resume-empty"><!-- Add Experience content here. --></div></div></section>
 <section class="container list-container" aria-labelledby="projects"><h3 id="projects">Projects</h3><div class="row clearfix"><div class="col-xs-12 resume-empty"><!-- Add Projects content here. --></div></div></section>
@@ -52,6 +58,27 @@ document.querySelectorAll('.publication-toggle').forEach(function (button) {
     document.getElementById(button.getAttribute('aria-controls')).hidden = expanded;
     button.setAttribute('aria-expanded', String(!expanded));
     button.textContent = expanded ? 'Show more' : 'Show less';
+  });
+});
+
+var publicationTabs = Array.from(document.querySelectorAll('.publication-tabs [role="tab"]'));
+function selectPublicationTab(tab) {
+  publicationTabs.forEach(function (item) {
+    var selected = item === tab;
+    item.setAttribute('aria-selected', String(selected));
+    item.tabIndex = selected ? 0 : -1;
+    document.getElementById(item.getAttribute('aria-controls')).hidden = !selected;
+  });
+}
+publicationTabs.forEach(function (tab, index) {
+  tab.addEventListener('click', function () { selectPublicationTab(tab); });
+  tab.addEventListener('keydown', function (event) {
+    var next;
+    if (event.key === 'ArrowRight') next = (index + 1) % publicationTabs.length;
+    if (event.key === 'ArrowLeft') next = (index + publicationTabs.length - 1) % publicationTabs.length;
+    if (event.key === 'Home') next = 0;
+    if (event.key === 'End') next = publicationTabs.length - 1;
+    if (next !== undefined) { event.preventDefault(); selectPublicationTab(publicationTabs[next]); publicationTabs[next].focus(); }
   });
 });
 </script>

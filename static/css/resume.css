@@ -76,3 +76,12 @@ section[aria-labelledby="education"] .details h4 { margin-bottom: 8px; }
 .patent-group { margin-top: 24px; }
 .patent-entry .patent-english-title { font-size: 18px; font-weight: 400; color: #555; }
 .patent-entry .patent-number { font-size: 16px; color: #666; }
+
+.publication-tabs { display: flex; flex-wrap: wrap; gap: 8px 24px; border-bottom: 1px solid #ddd; margin: 24px 0; }
+.publication-tabs [role="tab"] { padding: 10px 0; margin-bottom: -1px; border: 0; border-bottom: 2px solid transparent; border-radius: 0; background: transparent; color: #777; font: 400 18px/1.5 Roboto, sans-serif; cursor: pointer; }
+.publication-tabs [aria-selected="true"] { color: #222; border-bottom-color: #222; font-weight: 700; }
+.publication-tabs [role="tab"]:hover { color: #222; }
+.publication-tabs [role="tab"]:focus-visible { outline: 2px solid #666; outline-offset: 3px; }
+.publication-panel[hidden] { display: none; }
+.publication-panel { margin-top: 24px; }
+@media screen and (max-width: 767px) { .publication-tabs { gap: 8px 16px; } .publication-tabs [role="tab"] { font-size: 16px; } }
