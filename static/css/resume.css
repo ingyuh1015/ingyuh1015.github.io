@@ -28,3 +28,7 @@ section[aria-labelledby="education"] .details h4 { margin-bottom: 8px; }
 @media screen and (min-width: 768px) {
   .container { width: 94%; max-width: 1600px; }
 }
+
+.venue-badge { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; padding: 7px 12px; background: #17345c; color: #fff; border-radius: 5px; font-size: 16px; font-weight: 700; line-height: 1.4; }
+.venue-badge-track { padding-left: 12px; border-left: 1px solid #8293ab; font-size: 14px; font-weight: 500; }
+@media print { .venue-badge { background: white; color: #17345c; border: 1px solid #17345c; } }
