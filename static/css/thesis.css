@@ -17,3 +17,6 @@ body { color: #243047; }
 .publication-authors .author-block { margin-right: 0; }
 
 .publication-authors.is-size-5 { font-size: 1.75rem !important; }
+
+.method-subsection { margin-top: 2.5rem; }
+.method-subsection h3.title { font-size: 1.35rem; font-weight: 600; line-height: 1.5; letter-spacing: -.015em; margin-bottom: 0; }
