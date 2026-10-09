@@ -52,3 +52,10 @@ section[aria-labelledby="education"] .details h4 { margin-bottom: 8px; }
 .publication-badges .venue-badge-track { width: 100%; border-left: 0; padding-left: 0; }
 .publication-body h5 { margin-top: 0; }
 @media screen and (max-width: 767px) { .publication-entry { grid-template-columns: 110px minmax(0, 1fr); gap: 14px; } .publication-badges .venue-badge { padding: 6px 8px; } }
+
+.publication-entry[hidden] { display: none; }
+.publication-group-heading { display: flex; align-items: baseline; gap: 16px; margin-bottom: 22px; }
+.publication-group-heading .publication-group-title { margin-bottom: 0; }
+.publication-toggle { border: 1px solid #cbbdee; border-radius: 5px; padding: 4px 10px; background: #f0eaff; color: #5b3cc4; font: 500 14px/1.4 Roboto, sans-serif; cursor: pointer; }
+.publication-toggle:hover { background: #e4d9fc; }
+.publication-toggle:focus-visible { outline: 2px solid #5b3cc4; outline-offset: 3px; }
