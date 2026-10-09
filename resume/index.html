@@ -18,7 +18,7 @@
 <div class="education-program"><p><b>Bachelor’s Degree in Computer Science and Engineering</b></p><p>Mar 2015 – Feb 2020</p></div>
 </div></div></section>
 <section class="container list-container" aria-labelledby="publication"><h3 id="publication">Publication</h3>
-<section class="publication-group" aria-labelledby="international-publications"><div class="publication-group-heading"><h4 id="international-publications" class="publication-group-title">International</h4><button type="button" class="publication-toggle" aria-expanded="false" aria-controls="international-extra">Full view</button></div>
+<section class="publication-group" aria-labelledby="international-publications"><div class="publication-group-heading"><h4 id="international-publications" class="publication-group-title">International</h4><button type="button" class="publication-toggle" aria-expanded="false" aria-controls="international-extra">Show more</button></div>
 <article class="publication-entry"><div class="publication-badges"><span class="venue-badge">NeurIPS 2026 <span class="venue-badge-track">Main Track</span></span></div><div class="publication-body"><h5>LOCU: Löwdin-Orthogonalized Constraint Updates for Multi-Constraint Policy Optimization</h5><p class="publication-authors"><strong>Joonyoung Lim</strong>, Younghwan Yoo<sup>*</sup></p></div></article>
 <article class="publication-entry"><div class="publication-badges"><span class="venue-badge">NeurIPS 2026 <span class="venue-badge-track">Main Track</span></span></div><div class="publication-body"><h5>Accelerating Safe Reinforcement Learning with Massive Parallelism</h5><p class="publication-authors"><strong>Joonyoung Lim</strong>, Younghwan Yoo<sup>*</sup></p></div></article>
 
@@ -26,7 +26,7 @@
 <article class="publication-entry"><div class="publication-badges"><span class="venue-badge">IEEE Access 2024</span></div><div class="publication-body"><h5><a href="https://doi.org/10.1109/ACCESS.2024.3390429">Joint Cache Allocation and Replacement for Content-Centric Network-Based Private 5G Networks: Deep Reinforcement Learning Approach</a></h5><p class="publication-authors"><strong>Joonyoung Lim</strong>, Dongju Kim, Younghwan Yoo<sup>*</sup></p></div></article>
 <article id="international-extra" class="publication-entry" hidden><div class="publication-badges"><span class="venue-badge">ICUFN 2023</span></div><div class="publication-body"><h5><a href="https://doi.org/10.1109/ICUFN57995.2023.10200595">5G Network Simulator for Network Caching</a></h5><p class="publication-authors">Dongju Kim, <strong>Joonyoung Lim</strong>, Younghwan Yoo<sup>*</sup></p></div></article>
 </section>
-<section class="publication-group" aria-labelledby="domestic-publications"><div class="publication-group-heading"><h4 id="domestic-publications" class="publication-group-title">Domestic</h4><button type="button" class="publication-toggle" aria-expanded="false" aria-controls="domestic-extra">Full view</button></div>
+<section class="publication-group" aria-labelledby="domestic-publications"><div class="publication-group-heading"><h4 id="domestic-publications" class="publication-group-title">Domestic</h4><button type="button" class="publication-toggle" aria-expanded="false" aria-controls="domestic-extra">Show more</button></div>
 <article class="publication-entry"><div class="publication-badges"><span class="venue-badge">JKICS 2026</span></div><div class="publication-body"><h5><a href="https://doi.org/10.7840/kics.2026.51.2.262">A Lyapunov-Based Approach to Balancing AoI and Management Costs in Cooperative Perception for V2I Networks</a></h5><p class="publication-authors"><strong>Joonyoung Lim</strong>, Younghwan Yoo<sup>*</sup></p></div></article>
 <article class="publication-entry"><div class="publication-badges"><span class="venue-badge">UCWIT 2025</span>  <span class="award-badge">최우수논문상</span></div><div class="publication-body"><h5>Towards Safer Learning in Constrained Reinforcement Learning through Kronecker-Factored and Margin-Aware Optimization</h5><p class="publication-authors"><strong>임준영</strong>, 장진호, 유영환<sup>*</sup></p></div></article>
 <article class="publication-entry"><div class="publication-badges"><span class="venue-badge">JKICS 2023</span>  <span class="award-badge">우수논문</span></div><div class="publication-body"><h5><a href="https://doi.org/10.7840/kics.2023.48.3.327">5G 특화망내 심층강화학습 기반 네트워크 캐싱</a></h5><p class="publication-authors"><strong>임준영</strong>, 김동주, 유영환<sup>*</sup></p></div></article>
@@ -42,7 +42,7 @@ document.querySelectorAll('.publication-toggle').forEach(function (button) {
     var expanded = button.getAttribute('aria-expanded') === 'true';
     document.getElementById(button.getAttribute('aria-controls')).hidden = expanded;
     button.setAttribute('aria-expanded', String(!expanded));
-    button.textContent = expanded ? 'Full view' : 'Show less';
+    button.textContent = expanded ? 'Show more' : 'Show less';
   });
 });
 </script>
