@@ -68,3 +68,7 @@ section[aria-labelledby="education"] .details h4 { margin-bottom: 8px; }
 .venue-domestic-journal { background: #e1f3ef; color: #176b58; }
 .venue-domestic-conference { background: #fff0e5; color: #a34b16; }
 .venue-under-review { background: #edf0f3; color: #58616c; }
+
+.publication-badges .venue-badge { box-sizing: border-box; width: 100%; height: 64px; justify-content: center; flex-direction: column; align-items: flex-start; gap: 4px; }
+.publication-badges .venue-badge-track { line-height: 1.4; }
+.publication-body h5 .award-badge { vertical-align: middle; margin-left: 8px; }
