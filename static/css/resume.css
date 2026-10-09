@@ -91,3 +91,5 @@ section[aria-labelledby="education"] .details h4 { margin-bottom: 8px; }
 .publication-toolbar .publication-toggle { flex-shrink: 0; }
 .publication-toolbar .publication-toggle[hidden] { display: none; }
 @media screen and (max-width: 767px) { .publication-toolbar { align-items: flex-start; gap: 12px; } .publication-toolbar .publication-toggle { margin-top: 12px; } }
+
+.patent-entry .venue-badge-track { font-size: 12px; }
