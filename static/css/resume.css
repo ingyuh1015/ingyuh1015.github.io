@@ -56,12 +56,6 @@ section[aria-labelledby="education"] .details h4 { margin-bottom: 8px; }
 .publication-entry[hidden] { display: none; }
 .publication-group-heading { display: flex; align-items: baseline; gap: 16px; margin-bottom: 22px; }
 .publication-group-heading .publication-group-title { margin-bottom: 0; }
-/* Text-only disclosure control, following minghaoguo.com. */
-.publication-toggle { display: inline-flex; align-items: center; gap: 6px; border: 0; border-radius: 0; padding: 4px 0; background: transparent; color: #666; font: 400 14px/1.4 Roboto, sans-serif; cursor: pointer; }
-.publication-toggle::after { content: ''; width: 6px; height: 6px; border-right: 1px solid currentColor; border-bottom: 1px solid currentColor; transform: translateY(-2px) rotate(45deg); }
-.publication-toggle[aria-expanded="true"]::after { transform: translateY(2px) rotate(225deg); }
-.publication-toggle:hover { color: #222; text-decoration: underline; background: transparent; }
-.publication-toggle:focus-visible { outline: 2px solid #666; outline-offset: 4px; }
 
 .venue-international-conference { background: #f0eaff; color: #5b3cc4; }
 .venue-international-journal { background: #e8f0ff; color: #2458a6; }
@@ -88,8 +82,6 @@ section[aria-labelledby="education"] .details h4 { margin-bottom: 8px; }
 
 .publication-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; border-bottom: 1px solid #ddd; margin: 24px 0; }
 .publication-toolbar .publication-tabs { flex: 1; margin: 0; border-bottom: 0; }
-.publication-toolbar .publication-toggle { flex-shrink: 0; }
-.publication-toolbar .publication-toggle[hidden] { display: none; }
-@media screen and (max-width: 767px) { .publication-toolbar { align-items: flex-start; gap: 12px; } .publication-toolbar .publication-toggle { margin-top: 12px; } }
+@media screen and (max-width: 767px) { .publication-toolbar { align-items: flex-start; gap: 12px; } }
 
 .patent-entry .venue-badge-track { font-size: 12px; }
