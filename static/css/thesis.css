@@ -20,3 +20,9 @@ body { color: #243047; }
 
 .method-subsection { margin-top: 2.5rem; }
 .method-subsection h3.title { font-size: 1.35rem; font-weight: 600; line-height: 1.5; letter-spacing: -.015em; margin-bottom: 0; }
+
+.related-paper { margin-top: 1rem; padding-left: 1rem; border-left: 3px solid #cbd5e1; }
+.related-paper p { margin: 0; }
+.related-paper-label { color: #64748b; font-size: .85rem; font-weight: 600; margin-bottom: .35rem !important; }
+.related-paper-title { color: #334155; font-size: 1.05rem; line-height: 1.6; font-weight: 500; }
+.related-paper-venue { color: #64748b; font-size: .9rem; margin-top: .35rem !important; }
