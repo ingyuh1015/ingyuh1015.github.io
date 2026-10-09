@@ -8,3 +8,13 @@ section[aria-labelledby="education"] .details p { font-size: 20px; line-height: 
 section[aria-labelledby="education"] .details { text-align: left !important; }
 section[aria-labelledby="education"] .details p { text-align: left !important; }
 section[aria-labelledby="education"] .details h4 { margin-bottom: 8px; }
+
+.publication-group { margin-top: 32px; }
+.publication-group-title { font-size: 24px; font-weight: 500; margin-bottom: 22px; }
+.publication-entry { margin-bottom: 28px; padding-bottom: 22px; border-bottom: 1px solid #e5e7eb; }
+.publication-entry:last-child { border-bottom: 0; }
+.publication-entry h5 { font-size: 22px; line-height: 1.45; font-weight: 500; margin-bottom: 8px; }
+.publication-entry p { font-size: 18px; line-height: 1.6; text-align: left; margin-bottom: 5px; }
+.publication-entry .publication-links { font-size: 16px; }
+.publication-venue { color: #555; }
+.publication-entry a { overflow-wrap: anywhere; }
