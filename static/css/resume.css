@@ -85,3 +85,9 @@ section[aria-labelledby="education"] .details h4 { margin-bottom: 8px; }
 .publication-panel[hidden] { display: none; }
 .publication-panel { margin-top: 24px; }
 @media screen and (max-width: 767px) { .publication-tabs { gap: 8px 16px; } .publication-tabs [role="tab"] { font-size: 16px; } }
+
+.publication-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; border-bottom: 1px solid #ddd; margin: 24px 0; }
+.publication-toolbar .publication-tabs { flex: 1; margin: 0; border-bottom: 0; }
+.publication-toolbar .publication-toggle { flex-shrink: 0; }
+.publication-toolbar .publication-toggle[hidden] { display: none; }
+@media screen and (max-width: 767px) { .publication-toolbar { align-items: flex-start; gap: 12px; } .publication-toolbar .publication-toggle { margin-top: 12px; } }
